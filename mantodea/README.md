@@ -6,5 +6,5 @@ A backbone has been built using the GBIF backbone patch source together with the
     99948a8b-63b2-41bf-9d10-6e007e967789	PHYLUM	Mantodea Species File
 
 
-For tree file formats see ../README.md
+For tree file formats see [project readme](../README.md)
 
