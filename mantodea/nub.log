@@ -1,0 +1,73 @@
+INFO  [2015-12-02 20:41:19,901+0100] [main] org.gbif.checklistbank.authorship.AuthorComparator: Created author comparator with 4952 abbreviation entries
+INFO  [2015-12-02 20:41:19,909+0100] [main] org.gbif.checklistbank.nub.lookup.IdLookupImpl: Reading existing nub usages from postgres...
+WARN  [2015-12-02 20:41:30,650+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:references and gbif:Reference are both known as "references". Keeping only dcterms:references
+WARN  [2015-12-02 20:41:30,651+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:contributor and http://purl.org/dc/elements/1.1/contributor are both known as "contributor". Keeping only dcterms:contributor
+WARN  [2015-12-02 20:41:30,651+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:coverage and http://purl.org/dc/elements/1.1/coverage are both known as "coverage". Keeping only dcterms:coverage
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:creator and http://purl.org/dc/elements/1.1/creator are both known as "creator". Keeping only dcterms:creator
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:date and http://purl.org/dc/elements/1.1/date are both known as "date". Keeping only dcterms:date
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:description and http://purl.org/dc/elements/1.1/description are both known as "description". Keeping only dcterms:description
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:format and http://purl.org/dc/elements/1.1/format are both known as "format". Keeping only dcterms:format
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:identifier and http://purl.org/dc/elements/1.1/identifier are both known as "identifier". Keeping only dcterms:identifier
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:language and http://purl.org/dc/elements/1.1/language are both known as "language". Keeping only dcterms:language
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:publisher and http://purl.org/dc/elements/1.1/publisher are both known as "publisher". Keeping only dcterms:publisher
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:relation and http://purl.org/dc/elements/1.1/relation are both known as "relation". Keeping only dcterms:relation
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:rights and http://purl.org/dc/elements/1.1/rights are both known as "rights". Keeping only dcterms:rights
+WARN  [2015-12-02 20:41:30,652+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:source and http://purl.org/dc/elements/1.1/source are both known as "source". Keeping only dcterms:source
+WARN  [2015-12-02 20:41:30,653+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:subject and http://purl.org/dc/elements/1.1/subject are both known as "subject". Keeping only dcterms:subject
+WARN  [2015-12-02 20:41:30,653+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:title and http://purl.org/dc/elements/1.1/title are both known as "title". Keeping only dcterms:title
+WARN  [2015-12-02 20:41:30,653+0100] [main] org.gbif.dwc.terms.TermFactory: Terms dcterms:type and http://purl.org/dc/elements/1.1/type are both known as "type". Keeping only dcterms:type
+INFO  [2015-12-02 20:46:41,177+0100] [main] org.gbif.checklistbank.nub.lookup.IdLookupImpl: Loaded existing nub with 4342281 usages and max key 7348324 into id lookup
+INFO  [2015-12-02 20:46:42,346+0100] [main] org.gbif.checklistbank.cli.common.RegistryServiceConfiguration: Connecting to registry services at http://api.gbif.org/v1
+INFO  [2015-12-02 20:46:43,700+0100] [main] org.gbif.registry.ws.client.DatasetWsClient$$EnhancerByGuice$$9f0f9fae: Creating new DatasetWsClient$$EnhancerByGuice$$9f0f9fae using webservices at http://api.gbif.org/v1/dataset
+INFO  [2015-12-02 20:46:43,701+0100] [main] org.gbif.registry.ws.client.OrganizationWsClient$$EnhancerByGuice$$2d9d00c7: Creating new OrganizationWsClient$$EnhancerByGuice$$2d9d00c7 using webservices at http://api.gbif.org/v1/organization
+INFO  [2015-12-02 20:46:43,705+0100] [main] org.gbif.checklistbank.nub.source.ClbSourceList: Loading backbone sources from https://dl.dropboxusercontent.com/u/457027/test.tsv
+INFO  [2015-12-02 20:46:46,022+0100] [main] org.gbif.checklistbank.nub.source.ClbSourceList: Found 2 backbone sources
+INFO  [2015-12-02 20:46:46,306+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Adding kingdom
+INFO  [2015-12-02 20:46:46,458+0100] [source-loader-thread-1] org.gbif.checklistbank.nub.source.ClbSource: Loaded nub source data GBIF Backbone Patch with 64 usages into neo4j
+INFO  [2015-12-02 20:46:46,700+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start adding backbone sources
+INFO  [2015-12-02 20:46:46,753+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Adding 1th source GBIF Backbone Patch
+INFO  [2015-12-02 20:46:47,056+0100] [main] org.gbif.checklistbank.nub.NubBuilder: process batch 1x10000
+INFO  [2015-12-02 20:46:47,345+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Processing 0 explicit basionym relations from GBIF Backbone Patch
+INFO  [2015-12-02 20:46:47,349+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Processed 64 source usages for GBIF Backbone Patch
+INFO  [2015-12-02 20:46:47,794+0100] [source-loader-thread-1] org.gbif.checklistbank.nub.source.ClbSource: Loaded nub source data Mantodea Species File with 3945 usages into neo4j
+INFO  [2015-12-02 20:46:57,423+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Adding 2th source Mantodea Species File
+INFO  [2015-12-02 20:46:57,684+0100] [main] org.gbif.checklistbank.nub.NubBuilder: process batch 1x10000
+INFO  [2015-12-02 20:47:00,658+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Processing 0 explicit basionym relations from Mantodea Species File
+INFO  [2015-12-02 20:47:00,659+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Processed 3945 source usages for Mantodea Species File
+INFO  [2015-12-02 20:47:10,699+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start basionym consolidation
+INFO  [2015-12-02 20:47:10,700+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Discover basionyms
+INFO  [2015-12-02 20:47:11,609+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Discovered 5 new basionym relations and created 0 basionym placeholders
+INFO  [2015-12-02 20:47:11,618+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Found 5 basionyms to consolidate
+INFO  [2015-12-02 20:47:11,724+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Consolidated 5 usages from 5 basionyms in total
+INFO  [2015-12-02 20:47:11,725+0100] [main] org.gbif.checklistbank.nub.NubBuilder: flag empty genera as doubtful
+INFO  [2015-12-02 20:47:11,744+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in INCERTAE_SEDIS
+INFO  [2015-12-02 20:47:12,096+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in ANIMALIA
+INFO  [2015-12-02 20:47:12,099+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in ARCHAEA
+INFO  [2015-12-02 20:47:12,099+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in BACTERIA
+INFO  [2015-12-02 20:47:12,099+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in CHROMISTA
+INFO  [2015-12-02 20:47:12,099+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in FUNGI
+INFO  [2015-12-02 20:47:12,100+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in PLANTAE
+INFO  [2015-12-02 20:47:12,101+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in PROTOZOA
+INFO  [2015-12-02 20:47:12,101+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful duplicate names in VIRUSES
+INFO  [2015-12-02 20:47:12,101+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging similar species
+INFO  [2015-12-02 20:47:12,235+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging similar infraspecies
+INFO  [2015-12-02 20:47:12,246+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start flagging doubtful original names
+INFO  [2015-12-02 20:47:12,555+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Start creating missing autonyms
+INFO  [2015-12-02 20:47:12,579+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Created 0 missing autonyms
+WARN  [2015-12-02 20:47:12,580+0100] [main] org.gbif.checklistbank.nub.NubBuilder: NOT IMPLEMENTED: Copy extension data to backbone
+INFO  [2015-12-02 20:47:12,580+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Assigning final clb ids to all nub usages...
+INFO  [2015-12-02 20:47:12,964+0100] [main] org.gbif.checklistbank.neo.UsageDao: Converting all nub usages into name usages ...
+WARN  [2015-12-02 20:47:12,980+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 5 Fungi
+WARN  [2015-12-02 20:47:13,030+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 2 Archaea
+WARN  [2015-12-02 20:47:13,037+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 0 incertae sedis
+WARN  [2015-12-02 20:47:13,065+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 8 Viruses
+WARN  [2015-12-02 20:47:13,106+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 7 Protozoa
+WARN  [2015-12-02 20:47:13,112+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 3 Bacteria
+WARN  [2015-12-02 20:47:13,172+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 6 Plantae
+WARN  [2015-12-02 20:47:13,195+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 4 Chromista
+WARN  [2015-12-02 20:47:13,247+0100] [main] org.gbif.checklistbank.neo.UsageDao: Source usage without source id found 1 Animalia
+INFO  [2015-12-02 20:47:13,251+0100] [main] org.gbif.checklistbank.neo.UsageDao: Converted 3873 nub usages into name usages
+INFO  [2015-12-02 20:47:13,252+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Walk all accepted taxa and build usage metrics
+INFO  [2015-12-02 20:47:13,723+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Walked all taxa (root=9, total=3873, synonyms=725) and built usage metrics
+INFO  [2015-12-02 20:47:13,724+0100] [main] org.gbif.checklistbank.nub.NubBuilder: New backbone built
+INFO  [2015-12-02 20:47:13,969+0100] [main] org.gbif.checklistbank.nub.NubBuilder: Backbone dao closed orderly
