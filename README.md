@@ -9,19 +9,21 @@ In addition to the name itself the tree provides a few other properties per name
  - the rank is given in brackets after the name
  - synonym names are prefixed with a ***
  - basionyms are prefixed with a *$*
- 
-    Mantodea [order]
-      Hymenopodidae [family]
-        Amphecostephanus [genus]
-          Amphecostephanus rex [species]
-        Galinthias [genus]
-          Galinthias amoena [species]
-            *Galinthias hyalina [species]
-          $Galinthias meruensis [species]
-            *Galinthias usambarica [species]
-            *Oxypilus meruensis [species]
-            *Oxypilus nigericus [species]
-          Galinthias occidentalis [species]
+
+```
+Mantodea [order]
+  Hymenopodidae [family]
+    Amphecostephanus [genus]
+      Amphecostephanus rex [species]
+    Galinthias [genus]
+      Galinthias amoena [species]
+        *Galinthias hyalina [species]
+      $Galinthias meruensis [species]
+        *Galinthias usambarica [species]
+        *Oxypilus meruensis [species]
+        *Oxypilus nigericus [species]
+      Galinthias occidentalis [species]
+```
 
 The text files can either use simple canonical names (default) or names with the full authorship indicated by filenames containing **-full**.
 
